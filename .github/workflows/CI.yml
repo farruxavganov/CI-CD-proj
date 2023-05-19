@@ -19,8 +19,8 @@ jobs:
     - name: Install dependinces
       run: npm install
     - name: Check style
-      run: npm lint
+      run: npm run lint
     - name: Run tests
       run: npm run test
     - name: Build production bundle
-      run: npm build
+      run: npm run build
